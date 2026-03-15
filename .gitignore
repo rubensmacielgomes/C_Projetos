@@ -1,0 +1,32 @@
+# --- Executáveis e Binários ---
+# Ignora qualquer arquivo sem extensão (comum em executáveis Linux)
+# Mas cuidado: isso pode ignorar pastas. O ideal é listar os nomes:
+hello
+filtro
+ganancia
+substituicao
+a.out
+
+# Ignora arquivos de objeto
+*.o
+*.out
+
+# --- Compilação e Debug ---
+*.dSYM/
+core
+vgcore.*
+
+# --- Sistema e Editores ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- CS50 ---
+# Se você baixar arquivos de teste grandes ou imagens de exemplo
+*.bmp
+*.wav
+*.txt
+!*.c
