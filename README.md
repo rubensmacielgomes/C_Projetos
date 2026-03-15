@@ -42,3 +42,7 @@ Algoritmos de controle para Robótica assistiva (Saúde).
 🎓 Créditos e Honestidade Acadêmica
 Projeto desenvolvido por Rubens Maciel Gomes para o curso CS50.
 Nota: Este repositório cumpre a política de honestidade acadêmica, servindo apenas para demonstração de portfólio pessoal.
+
+---
+
+*Mantido por Rubens Maciel Gomes*
