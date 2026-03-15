@@ -1,0 +1,42 @@
+gcc arquivo.c biblioteca.c -o arquivo
+
+biblioteca.h // contém as definições do que consta na biblioteca
+biblioteca.c // Neste arquivo serão codificadas as funções
+
+Exemplo:
+
+biblioteca.h
+
+int soma(int a, int b);
+int subtracao(int a, int b);
+int produto(int a, int b);
+int divisao(int a, int b);
+
+************************************************
+
+biblioteca.c
+
+#include "aritmetica.h"
+
+int soma(int a, int b)
+{
+    return a + b;
+}
+
+int subtracao(int a, int b)
+{
+    return a - b;
+}
+
+int produto(int a, int b)
+{
+    return a * b;
+}
+
+int divisao(int a, int b)
+{
+    if (b == 0) {
+        return 0;
+    }
+    return a / b;
+}

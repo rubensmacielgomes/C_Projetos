@@ -1,0 +1,5 @@
+# para compilar arquivos com bibliotecas cs50
+gcc -g -Wall -Wextra -std=c11 -O2 -o arquivo arquivo.c -lcs50
+
+# para executar o arquivo compilado
+./arquivo
